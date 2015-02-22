@@ -4,13 +4,13 @@ Course project
 This project uses data from the UCI HAR Dataset. In this dataset, 30 individuals performed each of 6 activities (laying, sitting, standing, walking, walking downstairs, and walking upstairs) while wearing a smartphone. Measurements were collected for 561 dimensions using the smartphone's accelerometer and gyroscope. The subjects were divided into 2 groups, "test" and "train"
 
 For this assignment, the relevant files from the UCI HAR Dataset are:
-features.txt - contains the names of the 561 measurements, used as the column names for the X_test and X_train datasets
-subject_test.txt - subject ID numbers for the test group
-X_test.txt - measurement values for the test group  
-Y_test.txt - activity numbers (corresponding with the 6 activity names) for the test groups
-subject_train.txt - subject ID numbers for the train group
-X_train.txt - measurement values for the train group  
-Y_train.txt - activity numbers (corresponding with the 6 activity names) for the train group
+1. features.txt - contains the names of the 561 measurements, used as the column names for the X_test and X_train datasets
+2. subject_test.txt - subject ID numbers for the test group
+3. X_test.txt - measurement values for the test group  
+4. Y_test.txt - activity numbers (corresponding with the 6 activity names) for the test groups
+5. subject_train.txt - subject ID numbers for the train group
+6. X_train.txt - measurement values for the train group  
+7. Y_train.txt - activity numbers (corresponding with the 6 activity names) for the train group
 
 The run_analysis R script:
 
