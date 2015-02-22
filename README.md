@@ -30,5 +30,6 @@ Y_train.txt - activity numbers (corresponding with the 6 activity names) for the
 The R script assumes that the the dplyr package is installed. To run the R script locally, replace the paths to the files listed in step 1 with the location of these files on your local machine.
 
 As part of the assignment, a text file with the tidydata dataframe was exported and uploaded through the course website. To read the tidydata.txt file back into R, use the following code (where file_path is the location of the saved file on your local directory):
+    
     data <- read.table(file_path, header = TRUE)
     View(data)
